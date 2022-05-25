@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #808080;
+    font-size: x-large;
+    font-weight: bold;
+}
+img {
+    transform: rotate();
+}
+.hero {
+    text-align: center;
+    margin-top: 48px;
+}
+.hero-img {
+    display: flex;
+    justify-content:center;
+    position: relative;
+    padding: 0 0 0 40vw;
+}
+ #setting {
+     position: absolute;
+     top: -3rem;
+   width: 4vw;
+   animation: rotate 1s ease-out infinite alternate
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    
+}
