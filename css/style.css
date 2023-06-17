@@ -7,35 +7,16 @@
 
 body {
     font-family:  'Helvetica Neue', sans-serif;
-    background-image: url(../img/maintenance.png);
+    background: url(../img/maintenance.png) no-repeat #ffbdad ;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: fixed;
-    background-color: #ffbdad;
-}
-span{
-    font-size: 4.3rem;
-    color: #0052cc;
-    font-weight: 700 ;
-}
-.hero {
-    margin: 150px 0 0 40px;
-    /* flex-direction: column; */
 }
 
-.title {
-    display: inline-block;
-    width: 450px;
-}
-svg {
-    color : #0052cc;
-}
 img {
     transform: rotate();
 }
 
 #setting {
-    width: 90px;
+    width: 70px;
     animation: rotate .1s ease-out infinite alternate;
     margin-top: 10px;
 }
