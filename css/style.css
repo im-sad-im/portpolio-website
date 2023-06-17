@@ -1,39 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
 * {
     margin: 0;
-    padding: 0;
+    padding: 0px;
 }
+
 body {
-    font-family: 'Lato', sans-serif;
-    background-color: white;
-    font-size: x-large;
-    font-weight: bold;
+    font-family:  'Helvetica Neue', sans-serif;
+    background-image: url(../img/maintenance.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-color: #ffbdad;
+}
+span{
+    font-size: 4.3rem;
+    color: #0052cc;
+    font-weight: 700 ;
+}
+.hero {
+    margin: 150px 0 0 40px;
+    /* flex-direction: column; */
+}
+
+.title {
+    display: inline-block;
+    width: 450px;
+}
+svg {
+    color : #0052cc;
 }
 img {
     transform: rotate();
 }
-.hero {
-    text-align: center;
-    margin-top: 48px;
+
+#setting {
+    width: 90px;
+    animation: rotate .1s ease-out infinite alternate;
+    margin-top: 10px;
 }
-.hero-img {
-    display: flex;
-    justify-content:center;
-    position: relative;
-    padding: 0 0 0 40vw;
-}
- #setting {
-     position: absolute;
-     top: -3rem;
-   width: 4vw;
-   animation: rotate 1s ease-out infinite alternate
-}
+
 @keyframes rotate {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
-    
+
 }
